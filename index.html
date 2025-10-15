@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviropea</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+	    const texte = "Enviropea votre association écologique";
+	    const element = document.getElementById("texte");
+	    let i = 0;
+	
+	    function ecrire() {
+	      if (i < texte.length) {
+	        element.textContent += texte.charAt(i);
+	        i++;
+	        setTimeout(ecrire, 160); // vitesse d'écriture (en ms)
+	      } else {
+	        clignoterCurseur();
+	      }
+	    }
+
+    function clignoterCurseur() {
+      setInterval(() => {
+        element.style.borderRight =
+          element.style.borderRight === "4px solid transparent"
+            ? "4px solid #00ffcc"
+            : "30px solid transparent";
+      }, 400);
+    }
+
+    ecrire();
+  </script>
+   
+</head>
+<body>
+	
+    <h1><div id="texte"> </div></h1>
+
+
+    <h1>Enviropea votre association qui vous accompagne depuis plus de 20ans</h1>
+    
+    <h2>Notre moyen de fonctionnement</h2>
+    <ul>Nous sommes une associations fondee en 2002 ayant pour objectif du programme LIFE Environnement en France </ul>
+    <a href="https://www.ecologie.gouv.fr/programme-europeen-financement-life">Plus d'informations sur le programme LIFE de l'UE</a>
+    <h2>Notre personnel</h2>
+    <ul>nous sommes une équipes de 5 personnes</ul>
+    <h2>Nos Prestations</h2>
+    <ul>Formations</ul>
+    <ul>Gestions de projet</ul>
+    <ul>Aides Publique</ul>
+    <h1>Le programme LIFE en video</h1>
+    <iframe width="960" height="540" src="https://www.youtube.com/embed/jzgx17AS0VE" title="Webinaire Life   Grand E nov Enviropéa 12 05 20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<img src="image1.png">
+	<ul><a href="index2.html">Me Contacter!</a></ul>
+
+    
+
+	
+</body>
+</html>
+
