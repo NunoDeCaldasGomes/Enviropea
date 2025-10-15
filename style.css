@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial';
     background-image:url(photo2.png);
+    backgroud-size:cover;
     color: green;
     margin: 0;
     padding: 20px;
