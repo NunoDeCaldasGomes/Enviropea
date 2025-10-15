@@ -9,7 +9,7 @@ body {
 }
 
 img{
-    position: center;
+    position: absolute;
     top:20px;
     right:20px;
     width:14%;
