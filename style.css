@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial';
-    background-image:url(image2.png);
-    color: darkred;
+    background-image:url(photo2.png);
+    color: green;
     margin: 0;
     padding: 20px;
     postion: relative;
@@ -14,27 +14,37 @@ img{
     right:20px;
     width:14%;
     border-radius: 10px;
-    border: 2px solid darkred;
-    box-shadow: 0 4px 12px darkred;
+    border: 2px solid green;
+    box-shadow: 0 4px 12px green;
 
 }
 
+iframe {
+    position: center;
+    top:20px;
+    right:20px;
+    width:14%;
+    border-radius: 10px;
+    border: 2px solid green;
+    box-shadow: 0 4px 12px green;
+}
+
 a{
-    color: darkred
+    color: green
 }
 
 h1{
     position: center
-    color: darkred
-    border-bottom: 2px darkred ;
+    color: green
+    border-bottom: 2px green ;
     padding-bottom : 5px;
     margin-top : 30px;
 }
 
 h2{
     position: center
-    color: darkred
-    border-bottom: 2px darkred ;
+    color: green
+    border-bottom: 2px green ;
     padding-bottom : 5px;
     margin-top : 30px;
 }
@@ -42,7 +52,7 @@ h2{
 
 a:hover{
     text-decoration: underline;
-    color: skyblue;
+    color: yellow;
 }
 
 ul{
@@ -56,10 +66,10 @@ li{
 }
 
 #texte {
-  color: darkred;
+  color: green;
   font-family: 'Arial';
   font-size: 30px;
-  border-right: 2px solid darkred;
+  border-right: 2px solid green;
   padding-right: 5px;
   white-space: nowrap;
   overflow: hidden;
